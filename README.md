@@ -6,5 +6,5 @@ Easy batch script to open most up to date OSbot or dreambot .jar. Can be easily 
 
 Instructions
 
-1) Put osbot and dreambot in your VPS' documents folder
+1) Put osbot and dreambot in your windows VPS' / VM documents folder
 2) Launch script
