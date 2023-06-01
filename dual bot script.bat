@@ -1,5 +1,8 @@
 echo off
 :begin
+
+SET dir="C:\Users\"%username%"\Documents"
+
 echo Select a task:
 echo =============
 echo -
@@ -18,7 +21,7 @@ goto begin
 
 :op1
 echo you picked option 1
-cd/d "C:\Users\COMPUTER USERNAME\Documents"
+cd/d %dir%
 
 for /f delims^= %%i in ('
 dir/b/o-d "osbot*.jar"^|findstr/eil jar
@@ -37,7 +40,7 @@ exit
 
 :op2
 echo you picked option 2
-cd/d "C:\Users\COMPUTER USERNAME\Documents"
+cd/d %dir%
 
 for /f delims^= %%i in ('
 dir/b/o-d "DBLauncher*.jar"^|findstr/eil jar
