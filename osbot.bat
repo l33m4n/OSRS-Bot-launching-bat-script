@@ -17,4 +17,4 @@ for %%i in (cm,ss,ab,and,so,on
 )do 2>nul dir/b "%%~i-%_ver%.*"|findstr/eil jar
 
 :: code after get version ::
-java -Xmx1024M -Xms1024M -jar "%_ver%.jar" -debug %rnd%
+java -Xms1024M -jar "%_ver%.jar" -debug %rnd%
